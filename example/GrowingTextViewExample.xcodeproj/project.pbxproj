@@ -30,6 +30,7 @@
 		AEA3A8F524DADC4200F851FE /* GrowingTextView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AEA3A8ED24DADC4200F851FE /* GrowingTextView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AEA3A8FC24DADD5E00F851FE /* HPGrowingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5B30CB13EC633200DB7A65 /* HPGrowingTextView.m */; };
 		AEA3A8FD24DADD6000F851FE /* HPTextViewInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5B30CD13EC633200DB7A65 /* HPTextViewInternal.m */; };
+		AEA3A90224DADFA600F851FE /* HPGrowingTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A5B30CA13EC633200DB7A65 /* HPGrowingTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -208,6 +209,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEA3A90224DADFA600F851FE /* HPGrowingTextView.h in Headers */,
 				AEA3A8F124DADC4200F851FE /* GrowingTextView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
