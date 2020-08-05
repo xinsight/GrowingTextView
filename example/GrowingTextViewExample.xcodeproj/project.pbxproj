@@ -26,8 +26,8 @@
 		3ADB373713EE98D60006E262 /* MessageEntrySendButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ADB373313EE98D60006E262 /* MessageEntrySendButtonPressed.png */; };
 		3ADB373813EE98D60006E262 /* MessageEntrySendButtonPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ADB373413EE98D60006E262 /* MessageEntrySendButtonPressed@2x.png */; };
 		AEA3A8F124DADC4200F851FE /* GrowingTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA3A8EF24DADC4200F851FE /* GrowingTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AEA3A8F424DADC4200F851FE /* GrowingTextView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA3A8ED24DADC4200F851FE /* GrowingTextView.framework */; };
-		AEA3A8F524DADC4200F851FE /* GrowingTextView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AEA3A8ED24DADC4200F851FE /* GrowingTextView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AEA3A8F424DADC4200F851FE /* HPGrowingTextView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA3A8ED24DADC4200F851FE /* HPGrowingTextView.framework */; };
+		AEA3A8F524DADC4200F851FE /* HPGrowingTextView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AEA3A8ED24DADC4200F851FE /* HPGrowingTextView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AEA3A8FC24DADD5E00F851FE /* HPGrowingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5B30CB13EC633200DB7A65 /* HPGrowingTextView.m */; };
 		AEA3A8FD24DADD6000F851FE /* HPTextViewInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5B30CD13EC633200DB7A65 /* HPTextViewInternal.m */; };
 		AEA3A90224DADFA600F851FE /* HPGrowingTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A5B30CA13EC633200DB7A65 /* HPGrowingTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -50,7 +50,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				AEA3A8F524DADC4200F851FE /* GrowingTextView.framework in Embed Frameworks */,
+				AEA3A8F524DADC4200F851FE /* HPGrowingTextView.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -83,7 +83,7 @@
 		3ADB373313EE98D60006E262 /* MessageEntrySendButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MessageEntrySendButtonPressed.png; sourceTree = "<group>"; };
 		3ADB373413EE98D60006E262 /* MessageEntrySendButtonPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MessageEntrySendButtonPressed@2x.png"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* GrowingTextViewExample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GrowingTextViewExample-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		AEA3A8ED24DADC4200F851FE /* GrowingTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GrowingTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA3A8ED24DADC4200F851FE /* HPGrowingTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HPGrowingTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEA3A8EF24DADC4200F851FE /* GrowingTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrowingTextView.h; sourceTree = "<group>"; };
 		AEA3A8F024DADC4200F851FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,7 +95,7 @@
 			files = (
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
-				AEA3A8F424DADC4200F851FE /* GrowingTextView.framework in Frameworks */,
+				AEA3A8F424DADC4200F851FE /* HPGrowingTextView.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -126,7 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				1D6058910D05DD3D006BFB54 /* GrowingTextViewExample.app */,
-				AEA3A8ED24DADC4200F851FE /* GrowingTextView.framework */,
+				AEA3A8ED24DADC4200F851FE /* HPGrowingTextView.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -236,9 +236,9 @@
 			productReference = 1D6058910D05DD3D006BFB54 /* GrowingTextViewExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AEA3A8EC24DADC4200F851FE /* GrowingTextView */ = {
+		AEA3A8EC24DADC4200F851FE /* HPGrowingTextView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AEA3A8F924DADC4200F851FE /* Build configuration list for PBXNativeTarget "GrowingTextView" */;
+			buildConfigurationList = AEA3A8F924DADC4200F851FE /* Build configuration list for PBXNativeTarget "HPGrowingTextView" */;
 			buildPhases = (
 				AEA3A8E824DADC4200F851FE /* Headers */,
 				AEA3A8E924DADC4200F851FE /* Sources */,
@@ -249,9 +249,9 @@
 			);
 			dependencies = (
 			);
-			name = GrowingTextView;
+			name = HPGrowingTextView;
 			productName = GrowingTextView;
-			productReference = AEA3A8ED24DADC4200F851FE /* GrowingTextView.framework */;
+			productReference = AEA3A8ED24DADC4200F851FE /* HPGrowingTextView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -283,7 +283,7 @@
 			projectRoot = "";
 			targets = (
 				1D6058900D05DD3D006BFB54 /* GrowingTextViewExample */,
-				AEA3A8EC24DADC4200F851FE /* GrowingTextView */,
+				AEA3A8EC24DADC4200F851FE /* HPGrowingTextView */,
 			);
 		};
 /* End PBXProject section */
@@ -342,7 +342,7 @@
 /* Begin PBXTargetDependency section */
 		AEA3A8F324DADC4200F851FE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AEA3A8EC24DADC4200F851FE /* GrowingTextView */;
+			target = AEA3A8EC24DADC4200F851FE /* HPGrowingTextView */;
 			targetProxy = AEA3A8F224DADC4200F851FE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -608,7 +608,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AEA3A8F924DADC4200F851FE /* Build configuration list for PBXNativeTarget "GrowingTextView" */ = {
+		AEA3A8F924DADC4200F851FE /* Build configuration list for PBXNativeTarget "HPGrowingTextView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AEA3A8F724DADC4200F851FE /* Debug */,
